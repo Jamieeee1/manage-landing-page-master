@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .buttons {
+        @apply px-6 py-2 rounded-[20px] bg-pry-brightred text-sec-verypalered;
+    }
+
+    .sectionh3 {
+        @apply py-2 ml-4 bg-sec-verypalered font-lvl3 rounded-l-[20px];
+    }
+
+    .sectionp {
+        @apply flex justify-center pt-4 ml-4 text-left pb-9 font-lvl1;
+    }
+}
