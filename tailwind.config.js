@@ -4,7 +4,11 @@ module.exports = {
   theme: {
     extend: {
       backgroundPosition: {
-        "topright" : "top -70% right 40%",
+        "topright" : "right -90% bottom 40%",
+      },
+
+      backgroundSize: {
+        "50" : "90%"
       }
     },
     colors: {
@@ -17,7 +21,10 @@ module.exports = {
         "verydarkblue": "#1d1e25",
         "verypalered": "#ffefeb",
         "verylightgrey": "#fafafa"
-      }
+      },
+
+      "transparent" : "transparent"
+      
     },
 
     screens: {

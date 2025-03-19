@@ -12,20 +12,27 @@
 
 
 </head>
-<body class="bg-no-repeat bg-topright font-vietnam bg-major">
-  <div>
-    <header class="flex items-center p-3 flex-nowrap">
-      <div>
+<body class="bg-transparent bg-no-repeat bg-topright font-vietnam">
+
+  <div class="h-[300px] min-w-[375px] max-w-[400px] absolute -z-10 bg-major bg-topright bg-no-repeat bg-50">
+    <!-- <img src="/images/bg-tablet-pattern.svg" class="-right-0.5 -top-0.5" alt="" srcset=""> -->
+  </div>
+
+  <div class="bg-transparent">
+    
+    <header class="flex items-center px-6 py-5 bg-transparent flex-nowrap">
+      <div class="py-5">
         <img src="/images/logo.svg" alt="" srcset="">
       </div>
-      <div></div>
-      <div class="flex justify-end flex-1 dk:object-none ">
+      <div class="py-5"></div>
+      <div class="flex justify-end flex-1 py-5 dk:object-none ">
         <img src="/images/icon-hamburger.svg" alt="" srcset="">
       </div>
     </header>
+
     <div>
-      <div>
-        <img src="/images/illustration-intro.svg" alt="" srcset="">
+      <div class="px-5 py-5">
+        <img src="/images/illustration-intro.svg" alt="" srcset="" class="object-contain">
       </div>
 
       <div  class="mx-5 my-5 pb-9">
@@ -117,19 +124,74 @@
 
   Get Started
 
-  Simplify how your team works today.
-  Get Started
+  <div class="flex flex-col items-center justify-center py-[40px] bg-pry-brightred">
+    <h2 class="w-2/3 py-4 text-2xl text-sec-verylightgrey font-lvl3">
+      Simplify how your team works today.
+    </h2>
 
-  Home
-  Pricing
-  Products
-  About Us
-  Careers
-  Community
-  Privacy Policy
+    <div>
+      <button class="bg-sec-verypalered text-pry-brightred px-6 py-2 rounded-[20px]">Get Started</button>
+    </div>
 
-  Updates in your inbox…
-  Go
+  </div>
+
+  <footer class="bg-sec-verydarkblue text-sec-verylightgrey">
+
+    <fieldset disabled="disabled" class="flex items-center justify-center gap-3 py-6 text-sec-verylightgrey">
+      <input type="text" name="" placeholder="Updates in your inbox…" class="px-6 py-2 rounded-[20px] bg-sec-verylightgrey" id="">
+      <input type="button" value="Go" class="buttons">
+    </fieldset>
+
+    <div class="flex justify-between px-[35px] py-5">
+
+      <ul>
+        <li class="pb-2"><a href="">Home</a></li>
+        <li class="pb-2"><a href="">Pricing</a></li>
+        <li class="pb-2"><a href="">Products</a></li>
+        <li class="pb-2"><a href="">About us</a></li>
+      </ul>
+
+      <ul>
+        <li class="pb-2"><a href="">Careers</a></li>
+        <li class="pb-2"><a href="">Community</a></li>
+        <li class="pb-2"><a href="">Privacy Policy</a></li>
+      </ul>
+    </div>
+
+    <div class="flex flex-col gap-4">
+      <div class="grid grid-cols-5 gap-3 px-5 py-3 ">
+        
+        <div>
+          <img src="/images/icon-facebook.svg" alt="" srcset="">
+        </div>
+        
+        <div>
+          <img src="/images/icon-youtube.svg" alt="" srcset="">
+        </div>
+        
+        <div>
+          <img src="/images/icon-twitter.svg" alt="" srcset="">
+        </div>
+
+        <div>
+          <img src="/images/icon-pinterest.svg" alt="" srcset="">
+        </div>
+
+        <div>
+          <img src="/images/icon-instagram.svg" alt="" srcset="">
+        </div>
+        
+      </div>
+
+      <div class="flex items-center justify-center py-3 logo">
+        <img src="/images/logo.svg" alt="" srcset="">
+      </div>
+    </div>
+
+  </footer>
+
+  
+
 
   Copyright 2020. All Rights Reserved
 
@@ -138,5 +200,7 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
+
+
 </body>
 </html>
