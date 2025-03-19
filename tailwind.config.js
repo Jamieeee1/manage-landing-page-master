@@ -9,23 +9,25 @@ module.exports = {
 
       backgroundSize: {
         "50" : "90%"
-      }
-    },
-    colors: {
-      pry: {
-        "brightred": "#f25f3a",
-        "darkblue": "#242d52"
-      },
-      sec: {
-        "darkgreyishblue": "#9095a7",
-        "verydarkblue": "#1d1e25",
-        "verypalered": "#ffefeb",
-        "verylightgrey": "#fafafa"
       },
 
-      "transparent" : "transparent"
-      
+      colors: {
+        pry: {
+          "brightred": "#f25f3a",
+          "darkblue": "#242d52"
+        },
+        sec: {
+          "darkgreyishblue": "#9095a7",
+          "verydarkblue": "#1d1e25",
+          "verypalered": "#ffefeb",
+          "verylightgrey": "#fafafa"
+        },
+  
+        "transparent" : "transparent"
+        
+      },
     },
+   
 
     screens: {
       "sm" : "375px",

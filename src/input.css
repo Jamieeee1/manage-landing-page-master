@@ -16,4 +16,8 @@
     .sectionp {
         @apply flex justify-center pt-4 ml-4 text-left pb-9 font-lvl1;
     }
+
+    .socialDiv {
+        @apply flex items-center justify-center;
+    }
 }
