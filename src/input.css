@@ -20,4 +20,9 @@
     .socialDiv {
         @apply flex items-center justify-center;
     }
+
+    .whatimages {
+        @apply flex items-center justify-center;
+    }
+
 }

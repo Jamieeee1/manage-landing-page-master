@@ -595,6 +595,12 @@ video {
   justify-content: center;
 }
 
+.whatimages{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .absolute{
   position: absolute;
 }
@@ -605,6 +611,14 @@ video {
 
 .-top-0\.5{
   top: -0.125rem;
+}
+
+.right-0{
+  right: 0px;
+}
+
+.top-0{
+  top: 0px;
 }
 
 .-z-10{
@@ -648,12 +662,28 @@ video {
   height: 300px;
 }
 
+.h-6{
+  height: 1.5rem;
+}
+
+.h-\[30\%\]{
+  height: 30%;
+}
+
 .w-2\/3{
   width: 66.666667%;
 }
 
 .w-full{
   width: 100%;
+}
+
+.w-\[10\%\]{
+  width: 10%;
+}
+
+.w-\[30\%\]{
+  width: 30%;
 }
 
 .min-w-\[375px\]{
@@ -734,6 +764,10 @@ video {
 
 .bg-major{
   background-image: url('/images/bg-tablet-pattern.svg');
+}
+
+.bg-\[url\(images\/avatar-richard\.png\)\]{
+  background-image: url(images/avatar-richard.png);
 }
 
 .bg-50{
@@ -841,22 +875,22 @@ video {
   line-height: 2.5rem;
 }
 
-.text-xs{
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
 .text-sm{
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
 
-.font-lvl3{
-  font-weight: 700;
+.text-xs{
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-lvl1{
   font-weight: 400;
+}
+
+.font-lvl3{
+  font-weight: 700;
 }
 
 .text-pry-brightred{
