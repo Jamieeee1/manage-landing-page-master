@@ -14,7 +14,7 @@
     }
 
     .sectionp {
-        @apply flex justify-center pt-4 ml-4 text-left pb-9 font-lvl1;
+        @apply flex justify-center pt-4 ml-4 text-left pb-9 font-lvl1 text-sec-darkgreyishblue;
     }
 
     .socialDiv {
@@ -22,7 +22,15 @@
     }
 
     .whatimages {
-        @apply flex items-center justify-center;
+        @apply flex items-center justify-center object-contain h-[80px];
+    }
+
+    .whatname {
+        @apply py-5 text-center text-pry-darkblue font-lvl3;
+    }
+
+    .swipper-slide {
+       @apply text-sec-darkgreyishblue 
     }
 
 }
