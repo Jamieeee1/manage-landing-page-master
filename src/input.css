@@ -26,7 +26,7 @@
     }
     
     .swiper {
-        @apply px-4 min-w-[375px] max-w-full h-[500px] ;
+        @apply px-4 min-w-[375px] max-w-full h-[520px] ;
     }
 
     .whatimages {
@@ -38,6 +38,6 @@
     }
 
     .swipper-slide {
-        @apply h-[280px]
+        @apply h-[320px]
     }
 }
