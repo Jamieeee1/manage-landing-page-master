@@ -612,7 +612,7 @@ video {
 }
 
 .swiper{
-  height: 460px;
+  height: 500px;
   min-width: 375px;
   max-width: 100%;
   padding-left: 1rem;
@@ -672,11 +672,6 @@ video {
 .my-5{
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
-}
-
-.my-1{
-  margin-top: 0.25rem;
-  margin-bottom: 0.25rem;
 }
 
 .flex{
