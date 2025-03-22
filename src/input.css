@@ -38,6 +38,6 @@
     }
 
     .swipper-slide {
-        @apply h-[360px]
+        @apply h-[330px]
     }
 }

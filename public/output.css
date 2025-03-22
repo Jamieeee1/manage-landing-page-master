@@ -638,7 +638,7 @@ video {
 }
 
 .swipper-slide{
-  height: 360px;
+  height: 330px;
 }
 
 .-right-0\.5{
@@ -686,16 +686,12 @@ video {
   height: 2.5rem;
 }
 
-.h-\[300px\]{
-  height: 300px;
+.h-\[310px\]{
+  height: 310px;
 }
 
 .h-\[inherit\]{
   height: inherit;
-}
-
-.h-\[320px\]{
-  height: 320px;
 }
 
 .w-2\/3{
