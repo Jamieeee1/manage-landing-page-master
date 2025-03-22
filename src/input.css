@@ -5,6 +5,10 @@
 @tailwind utilities;
 
 @layer components {
+    .backgroundlogo {
+        @apply h-[300px] min-w-[375px] max-w-[400px] top-0 right-0 absolute -z-10 bg-major bg-topright bg-no-repeat bg-50;
+    }
+
     .buttons {
         @apply px-6 py-2 rounded-[20px] bg-pry-brightred text-sec-verypalered;
     }
@@ -20,9 +24,13 @@
     .socialDiv {
         @apply flex items-center justify-center;
     }
+    
+    .swiper {
+        @apply px-4 min-w-[375px] max-w-full h-[460px] ;
+    }
 
     .whatimages {
-        @apply flex items-center justify-center object-contain h-[80px];
+        @apply flex items-center justify-center object-contain h-[60px];
     }
 
     .whatname {
@@ -30,7 +38,6 @@
     }
 
     .swipper-slide {
-       @apply text-sec-darkgreyishblue 
+        @apply h-[280px]
     }
-
 }
