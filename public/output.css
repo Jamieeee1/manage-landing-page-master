@@ -612,7 +612,8 @@ video {
 }
 
 .swiper{
-  height: 520px;
+  height: -moz-max-content;
+  height: max-content;
   min-width: 375px;
   max-width: 100%;
   padding-left: 1rem;

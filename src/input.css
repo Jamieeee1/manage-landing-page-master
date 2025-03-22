@@ -26,7 +26,7 @@
     }
     
     .swiper {
-        @apply px-4 min-w-[375px] max-w-full h-[520px] ;
+        @apply px-4 min-w-[375px] max-w-full h-max ;
     }
 
     .whatimages {
