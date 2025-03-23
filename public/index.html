@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=375px"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
@@ -10,9 +10,7 @@
   <link rel="stylesheet" href="output.css">
 
   <!-- swiper css  -->
-  <!-- <link rel="stylesheet" href="swiper-bundle.css"> -->
-
-  <script src="home.js" defer></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 
 </head>
 <body class="bg-transparent bg-no-repeat bg-topright font-vietnam">
@@ -86,86 +84,81 @@
 
   </div>
 
-  <div class="swiper">
-    <h1 class="pt-2 text-3xl text-center pb-[60px] text-pry-darkblue font-lvl3">
+  <div class="myswiper swiper">
+    <!-- <h1 class="pt-2 text-3xl text-center pb-[60px] text-pry-darkblue font-lvl3">
       What they’ve said
-    </h1>
+    </h1> -->
 
-    <div class="slider-wrapper">
+    <div class="swiper-wrapper">
 
-      <div class="swiper-wrapper">
-  
-        <div class="swipper-slide">
-  
-          <div class="bg-sec-verylightgrey h-[310px]">
-            <div class="whatimages">
-              <img src="images/avatar-anisha.png" class="h-[inherit]" alt="" srcset="">
-            </div>
-            <h3 class="whatname"> Anisha Li </h3>
-            <p class="px-5 text-center">
-              “Manage has supercharged our team’s workflow. The ability to maintain 
-              visibility on larger milestones at all times keeps everyone motivated.”
-            </p>
+      <div class=" swipper-slide">
+
+        <div class="innersaid">
+          <div class="whatimages">
+            <img src="images/avatar-anisha.png" class="h-[inherit]" alt="" srcset="">
           </div>
-  
+          <h3 class="whatname"> Anisha Li </h3>
+          <p class="said">
+            “Manage has supercharged our team’s workflow. The ability to maintain 
+            visibility on larger milestones at all times keeps everyone motivated.”
+          </p>
         </div>
-  
-        <!-- <div class="swipper-slide">
-          
-          <div class="bg-sec-verylightgrey">
-            <div class="whatimages">
-              <img src="images/avatar-ali.png" class="h-[inherit]" alt="" srcset="">
-            </div>
-            <h3 class="whatname"> Ali Bravo </h3>
-            <p>
-              “We have been able to cancel so many other subscriptions since using 
-              Manage. There is no more cross-channel confusion and everyone is much 
-              more focused.”
-            </p>
-          </div>
-        </div>
-   
-        <div class="swipper-slide">
-  
-          <div class="bg-sec-verylightgrey">
-            <div class="whatimages">
-              <img src="images/avatar-richard.png" class="h-[inherit]" alt="" srcset="">
-            </div>
-            <h3 class="whatname"> Richard Watts</h3>
-            <p>
-              “Manage allows us to provide structure and process. It keeps us organized 
-              and focused. I can’t stop recommending them to everyone I talk to!”
-            </p>
-          </div>
-        </div>
-  
-        <div class="swipper-slide">
-  
-          <div class="bg-sec-verylightgrey">
-            <div class="whatimages">        
-              <img src="images/avatar-shanai.png" class="h-[inherit]" alt="" srcset="">
-            </div>
-            <h3 class="whatname"> Shanai Gough </h3>
-            <p>
-              “Their software allows us to track, manage and collaborate on our projects 
-              from anywhere. It keeps the whole team in-sync without being intrusive.”
-            </p>
-          </div>
-       -->
-      
+
       </div>
 
+      <div class=" swipper-slide">
+        
+        <div class="innersaid">
+          <div class="whatimages">
+            <img src="images/avatar-ali.png" class="h-[inherit]" alt="" srcset="">
+          </div>
+          <h3 class="whatname"> Ali Bravo </h3>
+          <p class="said">
+            “We have been able to cancel so many other subscriptions since using 
+            Manage. There is no more cross-channel confusion and everyone is much 
+            more focused.”
+          </p>
+        </div>
+      </div>
+ 
+      <div class=" swipper-slide">
 
+        <div class="innersaid">
+          <div class="whatimages">
+            <img src="images/avatar-richard.png" class="h-[inherit]" alt="" srcset="">
+          </div>
+          <h3 class="whatname"> Richard Watts</h3>
+          <p class="said">
+            “Manage allows us to provide structure and process. It keeps us organized 
+            and focused. I can’t stop recommending them to everyone I talk to!”
+          </p>
+        </div>
+      </div>
 
-      <div class="w-full h-10 swiper-pagination"></div>
+      <div class=" swipper-slide">
 
-
+        <div class="innersaid">
+          <div class="whatimages">        
+            <img src="images/avatar-shanai.png" class="h-[inherit]" alt="" srcset="">
+          </div>
+          <h3 class="whatname"> Shanai Gough </h3>
+          <p class="said">
+            “Their software allows us to track, manage and collaborate on our projects 
+            from anywhere. It keeps the whole team in-sync without being intrusive.”
+          </p>
+        </div>
+    
+    
     </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    
+    <div class="w-full h-10 swiper-pagination"></div>
 
-    <div class="flex items-center justify-center pb-4">
-      <button class="buttons"> Get Started</button>
-    </div>
-
+  </div>
+  
+  <div class="flex items-center justify-center pb-4">
+    <button class="buttons"> Get Started</button>
   </div>
   
 
@@ -255,7 +248,24 @@
   
 
   <!-- swiper js  -->
-   <script src="swiper-bundle.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
 </body>
 </html>

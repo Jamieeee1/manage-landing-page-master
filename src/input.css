@@ -38,6 +38,14 @@
     }
 
     .swipper-slide {
-        @apply h-[330px]
+        @apply h-max;
+    }
+
+    .said {
+        @apply px-5 py-6 text-center;
+    }
+
+    .innersaid {
+        @apply bg-sec-verylightgrey h-max;
     }
 }
