@@ -621,8 +621,11 @@ video {
 }
 
 .whatimages{
+  position: absolute;
+  top: -30px;
   display: flex;
   height: 60px;
+  width: 100%;
   align-items: center;
   justify-content: center;
   -o-object-fit: contain;
@@ -630,17 +633,19 @@ video {
 }
 
 .whatname{
-  padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+  padding-top: 50px;
   text-align: center;
   font-weight: 700;
   --tw-text-opacity: 1;
   color: rgb(36 45 82 / var(--tw-text-opacity, 1));
 }
 
-.swipper-slide{
+.mainslide{
   height: -moz-max-content;
   height: max-content;
+  min-width: 375px;
+  max-width: 420px;
 }
 
 .said{
@@ -652,6 +657,7 @@ video {
 }
 
 .innersaid{
+  position: relative;
   height: -moz-max-content;
   height: max-content;
   --tw-bg-opacity: 1;
@@ -697,10 +703,6 @@ video {
 
 .grid{
   display: grid;
-}
-
-.h-10{
-  height: 2.5rem;
 }
 
 .h-\[inherit\]{

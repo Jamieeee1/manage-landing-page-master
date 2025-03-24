@@ -4,5 +4,19 @@
     max-width: 420px;
 }
 
+.swiper-pagination {
+    position: relative;
+    padding-block: 10px;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+    border: #f23a3a 1px solid;
+    background-color: white;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #f25f3a;
+}
 
 /* h-max min-w-[375px] max-w-[420px]; */
+

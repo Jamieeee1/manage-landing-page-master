@@ -30,11 +30,11 @@
     }
 
     .whatimages {
-        @apply flex items-center justify-center object-contain h-[60px];
+        @apply flex items-center justify-center object-contain h-[60px] top-[-30px] absolute w-full;
     }
 
     .whatname {
-        @apply py-5 text-center text-pry-darkblue font-lvl3;
+        @apply pb-5 pt-[50px] text-center text-pry-darkblue font-lvl3;
     }
 
     .mainslide {
@@ -46,6 +46,6 @@
     }
 
     .innersaid {
-        @apply bg-sec-verylightgrey h-max;
+        @apply relative bg-sec-verylightgrey h-max;
     }
 }
