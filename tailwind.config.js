@@ -22,10 +22,14 @@ module.exports = {
           "verypalered": "#ffefeb",
           "verylightgrey": "#fafafa"
         },
-  
+        
         "transparent" : "transparent"
         
       },
+      
+      backgroundImage: {
+        "major" : "url('/images/bg-tablet-pattern.svg')",
+      }
     },
    
     screens: {
@@ -43,9 +47,6 @@ module.exports = {
       "lvl3" : "700"
     },
 
-    backgroundImage: {
-      "major" : "url('/images/bg-tablet-pattern.svg')",
-    }
   },
   plugins: [],
 }

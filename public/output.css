@@ -664,6 +664,18 @@ video {
   background-color: rgb(250 250 250 / var(--tw-bg-opacity, 1));
 }
 
+.invisible{
+  visibility: hidden;
+}
+
+.absolute{
+  position: absolute;
+}
+
+.relative{
+  position: relative;
+}
+
 .-right-0\.5{
   right: -0.125rem;
 }
@@ -715,6 +727,34 @@ video {
 
 .w-full{
   width: 100%;
+}
+
+.w-\[90dvw\]{
+  width: 90dvw;
+}
+
+.w-4\/5{
+  width: 80%;
+}
+
+.w-\[90\%\]{
+  width: 90%;
+}
+
+.w-11\/12{
+  width: 91.666667%;
+}
+
+.min-w-\[375px\]{
+  min-width: 375px;
+}
+
+.min-w-\[355px\]{
+  min-width: 355px;
+}
+
+.min-w-\[345px\]{
+  min-width: 345px;
 }
 
 .flex-1{
@@ -785,6 +825,11 @@ video {
   background-color: transparent;
 }
 
+.bg-white{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
 .bg-topright{
   background-position: right -90% bottom 40%;
 }
@@ -845,6 +890,11 @@ video {
 .py-\[40px\]{
   padding-top: 40px;
   padding-bottom: 40px;
+}
+
+.py-10{
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .pb-2{

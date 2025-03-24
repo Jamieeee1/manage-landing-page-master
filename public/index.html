@@ -10,10 +10,12 @@
   <link rel="stylesheet" href="output.css">
 
   <!-- swiper css  -->
-  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/> -->
   <link rel="stylesheet" href="swiper-bundle.css">
 
   <link rel="stylesheet" href="Slide.css">
+
+  <!-- personal js  -->
+   <script src="home.js" defer></script>
 
 </head>
 <body class="bg-transparent bg-no-repeat bg-topright font-vietnam">
@@ -22,7 +24,7 @@
     <!-- <img src="/images/bg-tablet-pattern.svg" class="-right-0.5 -top-0.5" alt="" srcset=""> -->
   </div>
 
-  <div class="bg-transparent">
+  <div class="relative bg-transparent">
     
     <header class="flex items-center px-6 py-5 bg-transparent flex-nowrap">
       <div class="py-5">
@@ -30,9 +32,23 @@
       </div>
       <div class="py-5"></div>
       <div class="flex justify-end flex-1 py-5 dk:object-none ">
-        <img src="images/icon-hamburger.svg" alt="" srcset="">
+        <div id="toggle">
+          <img src="images/icon-hamburger.svg" alt="" srcset="">
+        </div>
       </div>
     </header>
+
+    <div class="absolute flex justify-center invisible w-full text-pry-darkblue font-lvl3" id="phone_nav">
+      <ul class="flex flex-col items-center w-11/12 gap-4 py-10 bg-white">
+        <li><a href="">Pricing</a></li>
+        <li><a href="">Products</a></li>
+        <li><a href="">About Us</a></li>
+        <li><a href="">Careers</a></li>
+        <li><a href="">Community</a></li>
+      </ul>
+    </div>
+
+
 
     <div>
       <div class="px-5 py-5">
@@ -87,9 +103,6 @@
 
   </div>
 
-  <div class="outerswipper">
-
-  </div>
 
   <div class="swiper mySwiper">
     <h1 class="pt-2 text-3xl text-center pb-[60px] text-pry-darkblue font-lvl3">
