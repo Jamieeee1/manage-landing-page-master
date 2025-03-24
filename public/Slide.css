@@ -1,0 +1,8 @@
+.mainslide {
+    height: max-content;
+    min-width: 375px;
+    max-width: 420px;
+}
+
+
+/* h-max min-w-[375px] max-w-[420px]; */

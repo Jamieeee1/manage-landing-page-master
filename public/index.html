@@ -10,7 +10,10 @@
   <link rel="stylesheet" href="output.css">
 
   <!-- swiper css  -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/> -->
+  <link rel="stylesheet" href="swiper-bundle.css">
+
+  <link rel="stylesheet" href="Slide.css">
 
 </head>
 <body class="bg-transparent bg-no-repeat bg-topright font-vietnam">
@@ -84,15 +87,12 @@
 
   </div>
 
-  <div class="myswiper swiper">
-    <!-- <h1 class="pt-2 text-3xl text-center pb-[60px] text-pry-darkblue font-lvl3">
+  <div class="swiper mySwiper">
+    <h1 class="pt-2 text-3xl text-center pb-[60px] text-pry-darkblue font-lvl3">
       What they’ve said
-    </h1> -->
-
+    </h1>
     <div class="swiper-wrapper">
-
-      <div class=" swipper-slide">
-
+      <div class="swiper-slide mainslide">
         <div class="innersaid">
           <div class="whatimages">
             <img src="images/avatar-anisha.png" class="h-[inherit]" alt="" srcset="">
@@ -103,11 +103,9 @@
             visibility on larger milestones at all times keeps everyone motivated.”
           </p>
         </div>
-
       </div>
 
-      <div class=" swipper-slide">
-        
+      <div class="swiper-slide mainslide">
         <div class="innersaid">
           <div class="whatimages">
             <img src="images/avatar-ali.png" class="h-[inherit]" alt="" srcset="">
@@ -120,9 +118,8 @@
           </p>
         </div>
       </div>
- 
-      <div class=" swipper-slide">
 
+      <div class="swiper-slide mainslide">
         <div class="innersaid">
           <div class="whatimages">
             <img src="images/avatar-richard.png" class="h-[inherit]" alt="" srcset="">
@@ -135,8 +132,7 @@
         </div>
       </div>
 
-      <div class=" swipper-slide">
-
+      <div class="swiper-slide mainslide">
         <div class="innersaid">
           <div class="whatimages">        
             <img src="images/avatar-shanai.png" class="h-[inherit]" alt="" srcset="">
@@ -147,13 +143,11 @@
             from anywhere. It keeps the whole team in-sync without being intrusive.”
           </p>
         </div>
-    
-    
+      </div>
+
     </div>
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
-    
-    <div class="w-full h-10 swiper-pagination"></div>
+
+    <div class="swiper-pagination"></div>
 
   </div>
   
@@ -249,7 +243,8 @@
 
   <!-- swiper js  -->
     <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
+    <script src="swiper-bundle.js"></script>
 
     <!-- Initialize Swiper -->
     <script>
@@ -265,6 +260,24 @@
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
         },
+        breakpoints: {
+          // when window width is >= 375px
+          375: {
+            slidesPerView: 1,
+            spaceBetween: 10
+          },
+          // when window width is >= 650px
+          650: {
+            slidesPerView: 2,
+            spaceBetween: 20
+          },
+          // when window width is >= 640px
+          1200: {
+            slidesPerView: 3,
+            spaceBetween: 30
+          }
+        }
+        
       });
     </script>
 </body>

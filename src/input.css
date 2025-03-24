@@ -37,8 +37,8 @@
         @apply py-5 text-center text-pry-darkblue font-lvl3;
     }
 
-    .swipper-slide {
-        @apply h-max;
+    .mainslide {
+        @apply h-max min-w-[375px] max-w-[420px];
     }
 
     .said {
