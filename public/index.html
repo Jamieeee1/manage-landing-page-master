@@ -18,27 +18,39 @@
    <script src="home.js" defer></script>
 
 </head>
-<body class="bg-transparent bg-no-repeat bg-topright font-vietnam">
+<body class="bg-transparent bg-no-repeat bg-topright font-vietnam ">
 
   <div class="backgroundlogo">
     <!-- <img src="/images/bg-tablet-pattern.svg" class="-right-0.5 -top-0.5" alt="" srcset=""> -->
   </div>
 
-  <div class="relative bg-transparent">
+  <header class="flex items-center px-6 py-5 bg-transparent grid-cols-cus3 lg:grid lg:px-[100px] flex-nowrap">
+    <div class="py-5">
+      <img src="images/logo.svg" alt="" srcset="">
+    </div>
+    <nav class="hidden py-5 lg:inline-block font-lvl2 text-pry-darkblue">
+      <ul class="flex justify-evenly">
+        <li><a href="" class="hover:text-sec-darkgreyishblue">Pricing</a></li>
+        <li><a href="" class="hover:text-sec-darkgreyishblue">Products</a></li>
+        <li><a href="" class="hover:text-sec-darkgreyishblue">About Us</a></li>
+        <li><a href="" class="hover:text-sec-darkgreyishblue">Careers</a></li>
+        <li><a href="" class="hover:text-sec-darkgreyishblue">Community</a></li>
+      </ul>
+    </nav>
+    <div class="flex justify-end flex-1 py-5">
+      <div class="hidden lg:inline-block">
+        <button class="buttons"> Get Started</button>
+      </div>
+      <div id="toggle" class="lg:hidden">
+        <img src="images/icon-hamburger.svg" alt="" srcset="">
+      </div>
+    </div>
+  </header>
+  
+  <div class="relative flex bg-transparent">
     
-    <header class="flex items-center px-6 py-5 bg-transparent flex-nowrap">
-      <div class="py-5">
-        <img src="images/logo.svg" alt="" srcset="">
-      </div>
-      <div class="py-5"></div>
-      <div class="flex justify-end flex-1 py-5 dk:object-none ">
-        <div id="toggle">
-          <img src="images/icon-hamburger.svg" alt="" srcset="">
-        </div>
-      </div>
-    </header>
 
-    <div class="absolute flex justify-center invisible w-full text-pry-darkblue font-lvl3" id="phone_nav">
+    <div class="invisible nav_drop" id="phone_nav">
       <ul class="flex flex-col items-center w-11/12 gap-4 py-10 bg-white">
         <li><a href="">Pricing</a></li>
         <li><a href="">Products</a></li>
@@ -50,12 +62,12 @@
 
 
 
-    <div>
-      <div class="px-5 py-5">
+    <div class="grid-cols-2 tab:grid gap-x-7 gap-y-4 lg:mx-[100px]">
+      <div class="col-start-2 col-end-3 row-start-1 row-end-2 py-5">
         <img src="/images/illustration-intro.svg" alt="" srcset="" class="object-contain">
       </div>
 
-      <div  class="mx-5 my-5 pb-9">
+      <div  class="col-start-1 col-end-2 row-start-1 row-end-2 mx-5 my-5 pb-9">
         <h1 class="my-4 text-4xl text-center text-pry-darkblue font-lvl3"> Bring everyone together to build better products. </h1>
         <p class="pb-6 text-center text-sec-darkgreyishblue">
           Manage makes it simple for software teams to plan day-to-day 
@@ -173,12 +185,12 @@
   </div>
   
 
-  <div class="flex flex-col items-center justify-center py-[40px] bg-pry-brightred">
-    <h2 class="w-2/3 py-4 text-2xl text-sec-verylightgrey font-lvl3">
+  <div class="flex flex-col lg:flex-row lg:justify-between items-center justify-center py-[40px] bg-pry-brightred">
+    <h2 class="w-2/3 py-4 text-2xl text-center text-sec-verylightgrey font-lvl3">
       Simplify how your team works today.
     </h2>
 
-    <div>
+    <div class="lg:flex-1">
       <button class="bg-sec-verypalered text-pry-brightred px-6 py-2 rounded-[20px]">Get Started</button>
     </div>
 
@@ -186,8 +198,8 @@
 
   <footer class="bg-sec-verydarkblue text-sec-darkgreyishblue">
 
-    <fieldset disabled="disabled" class="flex items-center justify-center gap-3 py-6 text-sec-verylightgrey">
-      <input type="text" name="" placeholder="Updates in your inbox…" class="px-6 py-2 rounded-[20px] bg-sec-verylightgrey" id="">
+    <fieldset class="flex items-center justify-center gap-3 py-6 text-sec-verylightgrey">
+      <input type="mail" placeholder="Updates in your inbox…" class="px-6 py-2 rounded-[20px] bg-sec-verylightgrey" id="">
       <input type="button" value="Go" class="buttons">
     </fieldset>
 

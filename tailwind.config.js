@@ -26,15 +26,18 @@ module.exports = {
         "transparent" : "transparent"
         
       },
-      
+
+      screens: {
+        'tab': '768px',
+      },
+
       backgroundImage: {
         "major" : "url('/images/bg-tablet-pattern.svg')",
       }
-    },
-   
-    screens: {
-      "sm" : "375px",
-      "dk" : "1440px"
+      ,
+      gridTemplateColumns: {
+        "cus3" : "1fr 2fr 1fr"
+      }
     },
 
     fontFamily: {

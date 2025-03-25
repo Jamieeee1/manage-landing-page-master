@@ -1,7 +1,5 @@
 .mainslide {
     height: max-content;
-    min-width: 375px;
-    max-width: 420px;
 }
 
 .swiper-pagination {
@@ -18,5 +16,10 @@
     background-color: #f25f3a;
 }
 
-/* h-max min-w-[375px] max-w-[420px]; */
+@media (width >= 1024px) {
+    .swiper-pagination {
+        visibility: hidden;
+    }
+}
+
 

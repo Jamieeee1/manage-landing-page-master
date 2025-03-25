@@ -9,6 +9,10 @@
         @apply h-[300px] min-w-[375px] max-w-[400px] top-0 right-0 absolute -z-10 bg-major bg-topright bg-no-repeat bg-50;
     }
 
+    .nav_drop {
+        @apply absolute flex justify-center w-full text-pry-darkblue font-lvl3;
+    }
+
     .buttons {
         @apply px-6 py-2 rounded-[20px] bg-pry-brightred text-sec-verypalered;
     }
@@ -36,16 +40,12 @@
     .whatname {
         @apply pb-5 pt-[50px] text-center text-pry-darkblue font-lvl3;
     }
-
-    .mainslide {
-        @apply h-max min-w-[375px] max-w-[420px];
-    }
-
+    
     .said {
-        @apply px-5 py-6 text-center;
+        @apply px-5 py-6 text-center text-sec-darkgreyishblue;
     }
 
     .innersaid {
-        @apply relative bg-sec-verylightgrey h-max;
+        @apply relative bg-sec-verylightgrey h-max min-h-[238px];
     }
 }
