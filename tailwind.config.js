@@ -4,11 +4,12 @@ module.exports = {
   theme: {
     extend: {
       backgroundPosition: {
-        "topright" : "right -90% bottom 40%",
+        "topright" : "right -90% bottom 70%",
       },
 
       backgroundSize: {
-        "50" : "90%"
+        "50" : "90%",
+        "full" : "100%"
       },
 
       colors: {
@@ -29,14 +30,21 @@ module.exports = {
 
       screens: {
         'tab': '768px',
+        "mid2K" : '2000px'
       },
 
       backgroundImage: {
         "major" : "url('/images/bg-tablet-pattern.svg')",
+        "last" : "url('/images/bg-simplify-section-desktop.svg')",
+        "mob" : "url('/images/bg-simplify-section-mobile.svg')"
       }
       ,
       gridTemplateColumns: {
-        "cus3" : "1fr 2fr 1fr"
+        "cus3" : "1fr 2fr 1fr",
+        "foot" : "1fr 1.5fr 1fr"
+      }, 
+      boxShadow : {
+        "but" : "0 8px 8px -1px #ff552b5e"
       }
     },
 

@@ -6,11 +6,13 @@
 
 @layer components {
     .backgroundlogo {
-        @apply h-[300px] min-w-[375px] max-w-[400px] top-0 right-0 absolute -z-10 bg-major bg-topright bg-no-repeat bg-50;
+        @apply w-[100dvw] h-[70dvh] tab:w-[70dvw] tab:h-[70dvh] absolute top-0 right-0 bg-transparent -z-10;
     }
 
+    /* bg-major bg-topright bg-50 */
+
     .nav_drop {
-        @apply absolute flex justify-center w-full text-pry-darkblue font-lvl3;
+        @apply absolute flex justify-center w-full lg:invisible text-pry-darkblue font-lvl3;
     }
 
     .buttons {
