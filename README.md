@@ -31,9 +31,9 @@ Users should be able to:
 
 ### Screenshot
 for large screen
-![My screenshot\Large_screen.png]()
+![./My screenshot/Large_screen.png]()
 
-![My screenshot\Small_screen.png]()
+![./My screenshot/Small_screen.png]()
 
 ### Links
 
