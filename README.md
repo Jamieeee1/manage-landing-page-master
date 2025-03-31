@@ -12,7 +12,7 @@ This is a solution to the [Manage landing page challenge on Frontend Mentor](htt
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
+
 
 
 ## Overview
@@ -30,12 +30,54 @@ Users should be able to:
   - The email address is not formatted correctly
 
 ### Screenshot
-for large screen
-![./My screenshot/Large_screen.png]()
 
-![./My screenshot/Small_screen.png]()
+For Desktop Screen
+![Desktop](./Myscreenshot/Large_screen.png)
+
+For Mobile Screen
+![Mobile](./Myscreenshot/Small_screen.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Git hub](https://github.com/Jamieeee1/manage-landing-page-master)
+- Live Site URL: [Vercel on a server](https://manage-landing-page-master-gamma.vercel.app/)
+
+## My process
+- started with installing tailwindcss
+- then built the html
+- configures tailwind css
+- then css
+- imported swipperjs
+- then css again
+- then javascript
+
+### Built with
+
+- Semantic HTML5 markup
+- TailwindCSS custom properties
+- Flexbox
+- CSS Grid
+- [Tailwindcssv3](https://v3.tailwindcss.com/docs) - Tailwindcss
+- [swipperjs](https://swiperjs.com/) - Swiper JS
+
+### What I learned
+Used this as a learning space for tailwind. Do I love the experience? Yes, Did it frustrate me? Yessss. At some point I contemplated stopping the project.
+
+### Continued development
+
+I do want to improve on tmy Java script knowledge. 
+
+### Useful resources
+
+- [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/) -This help me to understand css even more .
+
+
+## Author
+
+- Website - [Github](https://github.com/Jamieeee1)
+- Frontend Mentor - [@Jamieeee1](https://www.frontendmentor.io/profile/Jamieeee1)
+- Twitter - [@meet_jamesb](https://x.com/meet_jamesb)
+
+
+
+
