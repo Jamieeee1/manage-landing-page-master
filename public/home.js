@@ -15,3 +15,26 @@ button.addEventListener('click', () => {
         phonenav.classList.add('invisible')
     }
 })
+
+const email = document.querySelector("#email");
+const emailspan = document.querySelector("#emaildiv");
+const gobutton = document.querySelector("#goemail");
+
+// email.addEventListener("invalid", () => {
+//     console.log("you typed rubbish")
+// })
+
+gobutton.addEventListener('click', () => {
+    const checkVal = email.checkValidity();
+    
+    if(!checkVal) {
+        console.log("Try")
+        emailspan.classList.remove('invisible')
+    }
+    else {
+        let check = emailspan.classList.contains('invisible')
+        if(!check) {
+            emailspan.classList.add('invisible')
+        }
+    }
+})

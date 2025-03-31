@@ -32,12 +32,6 @@
     </div>
   </div>
 
-  <!-- <div class="absolute top-[80%] left-0 w-[100dvw] h-[70dvh] tab:w-[70dvw] tab:h-[70dvh]">
-    <div class="h-[inherit] w-[inherit] overflow-hidden relative bg-transparent scroll">
-      <img src="/images/bg-tablet-pattern.svg" class="absolute object-contain w-full h-full transform -bottom-[10%] -left-[60%]" alt="" srcset="">
-    </div>
-  </div> -->
-
   <header class="flex items-center px-6 py-5 bg-transparent grid-cols-cus3 lg:grid lg:px-[100px] flex-nowrap">
     <div class="py-5">
       <img src="images/logo.svg" alt="" srcset="">
@@ -94,7 +88,7 @@
 
       <div class="py-5 my-3">
         <h2 class="mx-8 text-3xl text-center text-pry-darkblue font-lvl3">What’s different about Manage?</h2>
-        <p class="sectionp ">
+        <p class="sectionp">
           Manage provides all the functionality your team needs, without 
           the complexity. Our software is tailor-made for modern digital 
           product teams.
@@ -212,9 +206,19 @@
 
   <footer class="grid-cols-3 bg-sec-verydarkblue text-sec-darkgreyishblue lg:grid lg:px-11">
 
-    <fieldset class="flex items-center justify-center gap-2 py-6 text-sec-verylightgrey">
-      <input type="mail" placeholder="Updates in your inbox…" class="px-6 py-2 rounded-[20px] bg-sec-verylightgrey" id="">
-      <input type="button" value="Go" class="buttons tab:hover:opacity-65">
+    <fieldset class="flex flex-col py-6 text-sec-verylightgrey">
+      <div class="flex justify-center gap-2">
+        <input type="email" placeholder="Updates in your inbox…" class="px-6 text-sec-verydarkblue py-2 rounded-[20px] bg-sec-verylightgrey" id="email">
+        <input type="button" id="goemail" value="Go" class="buttons tab:hover:opacity-65">
+      </div>
+      <div class="flex justify-center text-left mylap:justify-start">
+        <span id="emaildiv" class="invisible pl-3 mt-1 text-xs text-pry-brightred font-lvl2">Please insert a valid mail</span>
+      </div>
+      <div class="relative flex-1 hidden mylap:block text-sec-darkgreyishblue">
+        <p class="absolute bottom-0 right-0 text-xs xl:right-[75px] font-lvl1">
+          Copyright 2020. All Rights Reserved
+        </p>
+      </div>
     </fieldset>
 
     <div class="flex justify-between tab:justify-evenly px-[35px] py-5 col-start-2 col-end-3 row-start-1 row-end-2 tab:px-0 ">
@@ -263,7 +267,7 @@
       </div>
     </div>
 
-    <div class="flex justify-center col-start-3 col-end-4 row-start-2 row-end-3 text-sec-verylightgrey">
+    <div class="flex justify-center col-start-3 col-end-4 row-start-2 row-end-3 mylap:hidden text-sec-darkgreyishblue">
       <p class="py-5 text-xs font-lvl1">
         Copyright 2020. All Rights Reserved
       </p>

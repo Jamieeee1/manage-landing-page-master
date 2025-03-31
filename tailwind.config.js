@@ -30,6 +30,7 @@ module.exports = {
 
       screens: {
         'tab': '768px',
+        'mylap': '1020px',
         "mid2K" : '2000px'
       },
 
@@ -41,7 +42,8 @@ module.exports = {
       ,
       gridTemplateColumns: {
         "cus3" : "1fr 2fr 1fr",
-        "foot" : "1fr 1.5fr 1fr"
+        "foot" : "1fr 1.5fr 1fr",
+        "field" : "auto auto"
       }, 
       boxShadow : {
         "but" : "0 8px 8px -1px #ff552b5e"
