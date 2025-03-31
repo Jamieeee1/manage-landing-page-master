@@ -19,22 +19,29 @@ button.addEventListener('click', () => {
 const email = document.querySelector("#email");
 const emailspan = document.querySelector("#emaildiv");
 const gobutton = document.querySelector("#goemail");
+const form = document.querySelector("#emailform")
 
-// email.addEventListener("invalid", () => {
-//     console.log("you typed rubbish")
-// })
 
-gobutton.addEventListener('click', () => {
-    const checkVal = email.checkValidity();
-    
-    if(!checkVal) {
-        console.log("Try")
-        emailspan.classList.remove('invisible')
-    }
-    else {
-        let check = emailspan.classList.contains('invisible')
-        if(!check) {
-            emailspan.classList.add('invisible')
+form.addEventListener('submit', function(event) {
+    event.preventDefault()
+
+    if(email.value == '' ) {
+        window.alert("field cant be left empty")
+    } else {
+        const checkVal = email.checkValidity();
+        console.log(checkVal)
+        if(!checkVal) {
+            console.log("Try")
+            emailspan.classList.remove('invisible')
+        }
+        else {
+            let check = emailspan.classList.contains('invisible')
+            if(!check) {
+                emailspan.classList.add('invisible')
+            }
         }
     }
 })
+
+// gobutton.addEventListener('click', () => {
+// })

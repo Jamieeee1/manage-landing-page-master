@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
 
   <title>Frontend Mentor | Manage landing page</title>
   <link rel="stylesheet" href="output.css">
@@ -22,13 +22,13 @@
 
   <div class="backgroundlogo">
     <div class="h-[inherit] w-[inherit] overflow-hidden relative bg-transparent scroll">
-      <img src="/images/bg-tablet-pattern.svg" class="absolute object-contain w-full h-full transform -top-[20%] -right-[30%]" alt="" srcset="">
+      <img src="images/bg-tablet-pattern.svg" class="absolute object-contain w-full h-full transform -top-[20%] -right-[30%]" alt="" srcset="">
     </div>
   </div>
   
   <div class="absolute top-[110%] right-0 w-[100dvw] h-[70dvh] tab:w-[70dvw] tab:top-[150%] lg:top-[90%] tab:left-0 tab:h-[70dvh]">
     <div class="h-[inherit] w-[inherit] overflow-hidden relative bg-transparent scroll">
-      <img src="/images/bg-tablet-pattern.svg" class="absolute object-contain w-full h-full transform -top-[10%] tab:-top-[0] tab:-bottom-[10%] tab:-left-[60%] -right-[60%] tab:-right-[0]" alt="" srcset="">
+      <img src="images/bg-tablet-pattern.svg" class="absolute object-contain w-full h-full transform -top-[10%] tab:-top-[0] tab:-bottom-[10%] tab:-left-[60%] -right-[60%] tab:-right-[0]" alt="" srcset="">
     </div>
   </div>
 
@@ -72,7 +72,7 @@
 
     <div class="grid-cols-2 tab:grid gap-x-7 gap-y-4 lg:mx-[100px]">
       <div class="col-start-2 col-end-3 row-start-1 row-end-2 py-5">
-        <img src="/images/illustration-intro.svg" alt="" srcset="" class="object-contain">
+        <img src="images/illustration-intro.svg" alt="" srcset="" class="object-contain">
       </div>
 
       <div  class="col-start-1 col-end-2 row-start-1 row-end-2 mx-5 my-5 pb-9">
@@ -205,21 +205,27 @@
   </div>
 
   <footer class="grid-cols-3 bg-sec-verydarkblue text-sec-darkgreyishblue lg:grid lg:px-11">
+    
+    <form action="" class="flex flex-col py-6 text-sec-verylightgrey" id="emailform">
 
-    <fieldset class="flex flex-col py-6 text-sec-verylightgrey">
-      <div class="flex justify-center gap-2">
-        <input type="email" placeholder="Updates in your inbox…" class="px-6 text-sec-verydarkblue py-2 rounded-[20px] bg-sec-verylightgrey" id="email">
-        <input type="button" id="goemail" value="Go" class="buttons tab:hover:opacity-65">
+      <div class="flex justify-center gap-2 mylap:justify-normal">
+        <div class="flex flex-col">
+          <input type="email" placeholder="Updates in your inbox…" class="px-6 text-sec-verydarkblue py-2 rounded-[20px] bg-sec-verylightgrey" id="email">
+          <span id="emaildiv" class="invisible pl-3 mt-1 text-xs text-pry-brightred font-lvl2">Please insert a valid mail</span>
+        </div>
+  
+        <div class="">
+          <button type="submit" id="goemail" class="buttons tab:hover:brightness-150">Go</button>
+        </div>
       </div>
-      <div class="flex justify-center text-left mylap:justify-start">
-        <span id="emaildiv" class="invisible pl-3 mt-1 text-xs text-pry-brightred font-lvl2">Please insert a valid mail</span>
-      </div>
+  
       <div class="relative flex-1 hidden mylap:block text-sec-darkgreyishblue">
         <p class="absolute bottom-0 right-0 text-xs xl:right-[75px] font-lvl1">
           Copyright 2020. All Rights Reserved
         </p>
       </div>
-    </fieldset>
+
+    </form>
 
     <div class="flex justify-between tab:justify-evenly px-[35px] py-5 col-start-2 col-end-3 row-start-1 row-end-2 tab:px-0 ">
 
@@ -241,29 +247,29 @@
       <div class="grid grid-cols-5 col-start-1 col-end-2 row-start-2 row-end-3 gap-3 px-5 py-3 lg:max-w-[450px] lg:mx-auto">
         
         <div class="socialDiv">
-            <img src="/images/icon-facebook.svg"   alt="" srcset="">
+            <img src="images/icon-facebook.svg"   alt="" srcset="">
         </div>
         
         <div class="socialDiv">
-            <img src="/images/icon-youtube.svg"  alt="" srcset="">
+            <img src="images/icon-youtube.svg"  alt="" srcset="">
         </div>
         
         <div class="socialDiv">
-            <img src="/images/icon-twitter.svg" alt="" srcset="">
+            <img src="images/icon-twitter.svg" alt="" srcset="">
         </div>
 
         <div class="socialDiv">
-          <img src="/images/icon-pinterest.svg"  alt="" srcset="">
+          <img src="images/icon-pinterest.svg"  alt="" srcset="">
         </div>
 
         <div class="socialDiv">
-          <img src="/images/icon-instagram.svg"  alt="" srcset="">
+          <img src="images/icon-instagram.svg"  alt="" srcset="">
         </div>
         
       </div>
 
       <div class="flex items-center justify-center col-start-1 col-end-2 row-start-1 row-end-2 py-3 logo">
-        <img src="/images/logo.svg" alt="" srcset="">
+        <img src="images/logo.svg" alt="" srcset="">
       </div>
     </div>
 

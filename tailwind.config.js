@@ -35,9 +35,9 @@ module.exports = {
       },
 
       backgroundImage: {
-        "major" : "url('/images/bg-tablet-pattern.svg')",
-        "last" : "url('/images/bg-simplify-section-desktop.svg')",
-        "mob" : "url('/images/bg-simplify-section-mobile.svg')"
+        "major" : "url('images/bg-tablet-pattern.svg')",
+        "last" : "url('images/bg-simplify-section-desktop.svg')",
+        "mob" : "url('images/bg-simplify-section-mobile.svg')"
       }
       ,
       gridTemplateColumns: {
